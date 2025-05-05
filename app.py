@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from io import BytesIO
-from reportlab.pdfgen import canvas
 
 st.set_page_config(page_title="Sistem Pinjaman", layout="wide")
 st.title("Sistem Pengajuan Pinjaman Koperasi Semarak Dana")
